@@ -2,6 +2,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
+
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -56,7 +58,60 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+
+
           <div className={tilesClasses}>
+    
+          <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+              <div className="tiles-item-inner recipe-image">
+
+                <Image
+                      src={require('./../../assets/images/ginger.JPG')}
+                      alt="Features tile icon 01"
+                      width={400}
+                      height={350} />
+
+
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-top" data-reveal-delay="200">
+              <div className="tiles-item-inner recipe-image">
+
+                <Image
+                      src={require('./../../assets/images/negroni.JPG')}
+                      alt="Features tile icon 01"
+                      width={400}
+                      height={350} 
+                      />
+
+              </div>
+            </div>
+
+
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+              <div className="tiles-item-inner recipe-image">
+
+                <Image
+                      src={require('./../../assets/images/mamba.JPG')}
+                      alt="Features tile icon 01"
+                      width={400}
+                      height={350} />
+
+
+              </div>
+            </div>
+
+</div>
+
+
+
+
+
+
+          <div className={tilesClasses}>
+
+
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
@@ -87,6 +142,8 @@ const Testimonial = ({
               </div>
             </div>
 
+
+
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
@@ -113,6 +170,8 @@ const Testimonial = ({
                 </div>
               </div>
             </div>
+
+
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
@@ -142,6 +201,8 @@ const Testimonial = ({
                 </div>
               </div>
             </div>
+
+
 
           </div>
         </div>
