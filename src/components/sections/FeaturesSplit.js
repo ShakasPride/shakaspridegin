@@ -112,7 +112,7 @@ we give you an experience fit for African Royalty in each and every bottle.
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/website1.jpg')}
+                  src={require('./../../assets/images/fruit.JPG')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
