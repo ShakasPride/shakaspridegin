@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/b.JPG')}
+                  src={require('./../../assets/images/website2.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -112,7 +112,7 @@ we give you an experience fit for African Royalty in each and every bottle.
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/b.JPG')}
+                  src={require('./../../assets/images/website1.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -140,7 +140,7 @@ excellent drinking experience.
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/b.JPG')}
+                  src={require('./../../assets/images/website3.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
