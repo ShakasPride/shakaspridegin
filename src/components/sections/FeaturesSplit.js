@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: "Join Shaka's Pride",
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: "Taste the Spirit of the Kingdom",
+    paragraph: "Join Shaka's Pride"
   };
 
   return (
@@ -62,6 +62,7 @@ const FeaturesSplit = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+ 
           <div className={splitClasses}>
 
             <div className="split-item">
