@@ -120,10 +120,10 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                               <li className="footer-social">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/shakaspridegin" target="_blank">
             <svg
-              width="20"
-              height="20"
+              width="24"
+              height="24"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
               <title>Facebook</title>
@@ -135,8 +135,8 @@ const Header = ({
         <li className="footer-social">
           <a href="https://www.instagram.com/shakaspridegin/" target="_blank">
             <svg
-              width="16"
-              height="16"
+              width="24"
+              height="24"
               viewBox="0 0 16 16"
               xmlns="http://www.w3.org/2000/svg">
               <title>Instagram</title>
@@ -150,9 +150,9 @@ const Header = ({
             </svg>
           </a>
         </li>
-                      <li>
+                      {/* <li>
                         <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Purchase</Link>
-                      </li>
+                      </li> */}
                     </ul>}
                 </div>
               </nav>
