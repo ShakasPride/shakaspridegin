@@ -38,7 +38,7 @@ const SectionHeader = ({
           {...props}
           className={classes}
         >
-          <div className="container-xs">
+          <div className="container-s">
             {children}
             {data.title &&
               <Component className={
@@ -48,7 +48,7 @@ const SectionHeader = ({
                 )}>{data.title}</Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <h4 className="m-0">{data.paragraph}</h4>
             }
           </div>
         </div>
