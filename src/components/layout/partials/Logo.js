@@ -20,7 +20,7 @@ const Logo = ({
     >
       <h3 className="m-0">
         <Link to="/">
-          {/* <p>Shaka's Pride</p> */}Shaka's Pride Gin
+          {/* <p>Shaka's Pride</p> */}SHAKA'S PRIDE GIN
           {/* <Image
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
