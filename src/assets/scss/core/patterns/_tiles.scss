@@ -1,3 +1,11 @@
+.hide-mobile{
+	display: none;
+}
+
+.hide-desktop{
+	display: content;
+}
+
 .tiles-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +59,7 @@
 
 	@include media( '>medium' ) {
 
+
 		.tiles-wrap {
 			margin-right: -($tiles-items--padding__desktop / 2);
 			margin-left: -($tiles-items--padding__desktop / 2);
@@ -76,5 +85,16 @@
 		.tiles-item {
 			padding: $tiles-items--padding__desktop / 2;
 		}
+	}
+}
+
+@include media( '>medium' ) {
+
+	.hide-mobile{
+		display: contents;
+	}
+
+	.hide-desktop{
+		display: none;
 	}
 }
