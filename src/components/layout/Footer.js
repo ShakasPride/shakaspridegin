@@ -44,10 +44,15 @@ const Footer = ({
           <div className="footer-top space-between text-xs">
             {/* <Logo /> */}
             {/* <div>  */}
-            <Link href="mailto:shakaspridegin@gmail.com">All Rights Reserved</Link>
-            {/* </div>
-            <div> */}
-            <Link href="mailto:shakaspridegin@gmail.com">Contact Us</Link>
+
+            <a href="mailto:shakaspridegin@gmail.com" target="_blank">
+            All Rights Reserved            
+            </a>
+        
+
+            <a href="mailto:shakaspridegin@gmail.com" target="_blank">
+            Contact Us
+            </a>
 
             {/* </div> */}
 
