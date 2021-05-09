@@ -46,8 +46,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: "Recipe's",
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: "Recipes",
+    paragraph: 'Channel Your Inner Mixologist'
   };
 
   return (
@@ -64,43 +64,122 @@ const Testimonial = ({
     
           <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner recipe-image">
-
-                <Image
-                      src={require('./../../assets/images/ginger.JPG')}
-                      alt="Features tile icon 01"
-                      width={400}
-                      height={350} />
-
-
+              <Image
+                src={require('./../../assets/images/ginger.JPG')}
+                alt="Features tile icon 01"
+                width={400}
+                height={350} 
+                />
               </div>
             </div>
+
+
+            <div className="tiles-item reveal-from-right hide-desktop" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                      <ul className="text-sm mb-0">
+        <li>50ml Shaka's Pride Gin
+        </li>
+        <li>200ml Ginger Beer
+        </li>
+        <li>25ml Kola Tonic Cordial
+        </li>
+        <li>1 Drop Bitters
+        </li>
+        <li>1 Stick Cinnamon
+        </li>
+      </ul>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Recipe</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    The Ginger Warrior
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
 
             <div className="tiles-item reveal-from-top" data-reveal-delay="200">
               <div className="tiles-item-inner recipe-image">
-
                 <Image
-                      src={require('./../../assets/images/negroni.JPG')}
-                      alt="Features tile icon 01"
-                      width={400}
-                      height={350} 
-                      />
-
+                  src={require('./../../assets/images/negroni.JPG')}
+                  alt="Features tile icon 01"
+                  width={400}
+                  height={350} 
+                />
               </div>
             </div>
+
+            <div className="tiles-item reveal-from-bottom hide-desktop">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                      <ul className="text-sm mb-0">
+        <li>25ml Shaka's Pride Gin
+        </li>
+        <li>25ml Sweet Vermouth
+        </li>
+        <li>25ml Campari
+        </li>
+        <li>1 Strip Orange Zest
+        </li>
+      </ul>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Recipe</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    The Classic Negroni
+                  </span>
+                </div>
+              </div>
+            </div>
+
 
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner recipe-image">
-
                 <Image
-                      src={require('./../../assets/images/mamba.JPG')}
-                      alt="Features tile icon 01"
-                      width={400}
-                      height={350} />
-
-
+                  src={require('./../../assets/images/mamba.JPG')}
+                  alt="Features tile icon 01"
+                  width={400}
+                  height={350} 
+                />
               </div>
             </div>
+
+
+            <div className="tiles-item reveal-from-left hide-desktop" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+
+                  <ul className="text-sm mb-0">
+        <li>50ml Shaka's Pride Gin
+        </li>
+        <li>25ml Lime Cordial
+        </li>
+        <li>200ml Pink Tonic
+        </li>
+        <li>1 Slice Cucumber
+        </li>
+        <li>1 Black Pepper Grind
+        </li>
+      </ul>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Recipe</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    The Cucumber Mamba
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+
 
 </div>
 
@@ -109,6 +188,7 @@ const Testimonial = ({
 
 
 
+          <div className="hide-mobile">
           <div className={tilesClasses}>
 
 
@@ -205,6 +285,12 @@ const Testimonial = ({
 
 
           </div>
+
+</div>
+
+
+
+
         </div>
       </div>
     </section>
